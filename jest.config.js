@@ -1,8 +1,9 @@
 module.exports = {
-  collectCoverage: false,
+  collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/src//*.js',
   ],
+  coverageReporters: ['html'],
   moduleFileExtensions: ['js'],
   moduleNameMapper: {
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
